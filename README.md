@@ -153,22 +153,24 @@ Wrote to /home/ray/Escritorio/my-remix-app/first-node-express-app-fatz/package.j
 
 ```
 
-Si estamos instalando módulos para crear un servidor lo primero es un framework que facilite la creación del servidor mismo. Aquí entra uno como **express** vamos a instalarlo aquí 
-@@@@@
-en ping store express expresó es un framework que fácilmente nos permite poder crear un servidor estar pensando cómo funcionan los módulos de servidor internamente cómo leer archivos como cargar imágenes ni nada de eso express ya tiene todo eso creado simplemente para que nosotros lo llevemos a través de código entonces expresa era el encargado de poder servir páginas hacia el front-end páginas hacia el navegador 
+### los tres módulos principales de esta aplicación
 
-luego también voy a estar instalando un modo llamado morgan este módulo nos va ayudar para poder ver por consola las peticiones que van llegando es decir cuando una página o mejor dicho un navegador solicita una página en nuestro servidor morgan me va a ayudar mostrando por consola las peticiones que van llegando de esta forma voy a poder ver si realmente el servidor respondió algo ocurrió en algún error y finalmente voy a estar instalando un problema 2 y es este módulo más que para poder funcionar internamente en nuestro servidor va a servir para poder generar páginas html html nos permite poder crear interfaces sencillas botones nos permite poder crear digamos elementos o etiquetas html pero es y es lo que hace es extender el html también con lógica de programación es decir nos permite poder utilizar condicionales bucles e incluso ejecutar algunas funciones js dentro de html directamente sin necesidad de llamar a un script se silencia llamaron una etiqueta script javascript 
-no se preocupen es más sencillo de lo que parece 
-vamos a dar un enter y con esto tendríamos los tres módulos principales de esta aplicación ahora estos son los módulos de producción los módulos que sí o sí necesita mi proyecto para funcionar y
-4:58
-como pueden ver aquí en el pack a jason en la sección dependencias están listados los tres módulos ahora aparte
-5:03
-de esto también necesito módulos de desarrollo es decir módulos que me ayuden al momento de crear la aplicación
-5:08
-pero que en producción ya no sean necesarios estos módulos se le conoce como módulos de dependencia o
-5:15
-dependencia de desarrollo y para este ejemplo tan solo voy a utilizar uno que se llama notebook lo hice la moss esta
-5:20
+Si estamos instalando módulos para crear un servidor lo primero es un framework que facilite la creación del servidor mismo. Aquí entra uno como **express** 
+
+Express es un fw que fácilmente permite crear un servidor sin estar pensando cómo funcionan los módulos de servidor internamente -cómo leer archivos como cargar imágenes ni nada de eso- Tiene todo eso creado simplemente para que lo llevemos a través de código. Express sera el encargado de poder servir páginas hacia el front-end -hacia el navegador-
+
+luego también voy a estar instalando un modo llamado **morgan** este ayuda a ver por consola las peticiones que van llegando. Con ello, si realmente el servidor recibió que y respondió cual cosa. O si algo ocurrió -error 
+
+Finalmente **ejs** módulo para funcionar internamente en el servidor: generar páginas html;  permite crear interfaces sencillas, botones.. permite crear 'elementos' o 'etiquetas html' y *extiende el html con lógica de programación* es decir, permite condicionales-bucles e incluso algunas funciones js dentro de html directamente- sin necesidad de llamar a un script- se silencia llamaron una etiqueta script javascript 
+
+
+### módulos de desarrollo 
+
+Ayudan al momento de crear la app y se apagan en producción (el build no lols incorpora) 
+
+*módulos de dependencia* o *de dependencia de desarrollo* 
+
+Para este ejemplo tan solo **notebook** lo hice la moss esta
 forma en princeton uno de mont y le colocamos la opción guión de por que
 5:25
 esta opción le va a decir en este caso no 10 que es un módulo de desarrollo entonces voy a dar una enter y vamos a
