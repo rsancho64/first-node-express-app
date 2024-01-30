@@ -153,39 +153,13 @@ Wrote to /home/ray/Escritorio/my-remix-app/first-node-express-app-fatz/package.j
 
 ```
 
-
 Si estamos instalando módulos para crear un servidor lo primero es un framework que facilite la creación del servidor mismo. Aquí entra uno como **express** vamos a instalarlo aquí 
 @@@@@
-en ping
-store express expresó es un framework que fácilmente nos permite poder crear
-3:30
-un servidor estar pensando cómo funcionan los módulos de servidor internamente cómo
-3:36
-leer archivos como cargar imágenes ni nada de eso express ya tiene todo eso creado simplemente para que nosotros lo
-3:42
-llevemos a través de código entonces expresa era el encargado de poder servir páginas hacia el front-end páginas hacia
-3:49
-el navegador luego también voy a estar instalando un modo llamado morgan este módulo nos va ayudar para poder ver por
-3:54
-consola las peticiones que van llegando es decir cuando una página o mejor dicho un navegador solicita una página en
-4:01
-nuestro servidor morgan me va a ayudar mostrando por consola las peticiones que van llegando de esta forma voy a poder
-4:06
-ver si realmente el servidor respondió algo ocurrió en algún error y finalmente
-4:12
-voy a estar instalando un problema 2 y es este módulo más que para poder funcionar internamente en nuestro
-4:18
-servidor va a servir para poder generar páginas html html nos permite poder
-4:23
-crear interfaces sencillas botones nos permite poder crear digamos elementos o etiquetas html pero es y es lo que hace
-4:31
-es extender el html también con lógica de programación es decir nos permite poder utilizar condicionales bucles e
-4:37
-incluso ejecutar algunas funciones de javascript dentro de html directamente sin la necesidad de llamar a script se
-4:44
-silencia llamaron una etiqueta script javascript no se preocupen es más sencillo de lo que parece vamos a dar un enter y con esto tendríamos los tres
-4:50
-módulos principales de esta aplicación ahora estos son los módulos de producción los módulos que sí o sí necesita mi proyecto para funcionar y
+en ping store express expresó es un framework que fácilmente nos permite poder crear un servidor estar pensando cómo funcionan los módulos de servidor internamente cómo leer archivos como cargar imágenes ni nada de eso express ya tiene todo eso creado simplemente para que nosotros lo llevemos a través de código entonces expresa era el encargado de poder servir páginas hacia el front-end páginas hacia el navegador 
+
+luego también voy a estar instalando un modo llamado morgan este módulo nos va ayudar para poder ver por consola las peticiones que van llegando es decir cuando una página o mejor dicho un navegador solicita una página en nuestro servidor morgan me va a ayudar mostrando por consola las peticiones que van llegando de esta forma voy a poder ver si realmente el servidor respondió algo ocurrió en algún error y finalmente voy a estar instalando un problema 2 y es este módulo más que para poder funcionar internamente en nuestro servidor va a servir para poder generar páginas html html nos permite poder crear interfaces sencillas botones nos permite poder crear digamos elementos o etiquetas html pero es y es lo que hace es extender el html también con lógica de programación es decir nos permite poder utilizar condicionales bucles e incluso ejecutar algunas funciones js dentro de html directamente sin necesidad de llamar a un script se silencia llamaron una etiqueta script javascript 
+no se preocupen es más sencillo de lo que parece 
+vamos a dar un enter y con esto tendríamos los tres módulos principales de esta aplicación ahora estos son los módulos de producción los módulos que sí o sí necesita mi proyecto para funcionar y
 4:58
 como pueden ver aquí en el pack a jason en la sección dependencias están listados los tres módulos ahora aparte
 5:03
